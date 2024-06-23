@@ -16,10 +16,10 @@
 ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/1dedf028-bbe2-416e-8c67-65b108b1e84d)
 
 - NOT Gate: In a NOT gate, the output of a NOT gate attains state 1 if and only if the input does not attain state 1. The Boolean expression is ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/5764d153-f093-4b65-9467-a9ec60c9943e) .It is read as Y equals NOT A.
-  ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/62f7d8ba-5670-45f3-abe0-f71fa97782a3)
+- ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/62f7d8ba-5670-45f3-abe0-f71fa97782a3)
 
   - Truth Table:
-![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/37511c50-4fb6-4b59-8051-f283ad266324)
+- ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/37511c50-4fb6-4b59-8051-f283ad266324)
 
 
 ## 2. Why are NAND & NOR called the Universal Gates? What are advantages of universal gates.
