@@ -69,6 +69,10 @@ Truth Table of D FLip-Flop:
 
 ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/757182a3-a890-4544-830f-e48067885409)
 
+Circuit Diagram:
+
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/d41b298d-7286-46e7-9745-affd9dba4cad)
+
 1. Multiplexer Connections:
    - Use two 2:1 multiplexers for the design.
    - Connect the D input to input 0 of both multiplexers.
@@ -83,8 +87,3 @@ Truth Table of D FLip-Flop:
 4. Operation:
    - When the clock input is high (1), the multiplexers select the D input as their output, meaning the output follows the value of the D input.
    - When the clock input is low (0), the multiplexers select their own outputs as the output of the flip-flop, meaning the stored value is maintained.
-
-Circuit Diagram:
-
-![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/d41b298d-7286-46e7-9745-affd9dba4cad)
-
