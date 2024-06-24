@@ -1,6 +1,8 @@
-### 1. Design & Explanation
+# 100 Days Verification Challenge - Day 3
 
-#### a. BCD to Decimal Encoder
+## 1. Design & Explanation of:
+
+### a. BCD to Decimal Encoder
 
 A BCD (Binary-Coded Decimal) to Decimal encoder converts a 4-bit binary input representing a decimal digit (0-9) into a corresponding single active output line. 
 
@@ -27,7 +29,7 @@ Logic Circuit:
 - Each output line (D0 to D9) is driven by an AND gate combination of the input lines (A3 to A0).
 - For example, D0 is activated when A3, A2, A1, and A0 are all 0. D1 is activated when A3, A2, and A1 are 0, and A0 is 1, etc.
 
-#### b. Octal to Binary Encoder using OR Gates
+### b. Octal to Binary Encoder using OR Gates
 
 An Octal to Binary encoder converts an 8-line input into a 3-bit binary output.
 
@@ -55,7 +57,7 @@ Logic Circuit:
 
 The OR gates combine the respective input lines to generate the binary outputs.
 
-#### c. 3:8 Decoder
+### c. 3:8 Decoder
 
 A 3:8 Decoder converts a 3-bit binary input to one of the 8 output lines, setting that output line high while others remain low.
 
@@ -78,21 +80,18 @@ Truth Table:
 
 Logic Circuit:
 - Each output line is driven by an AND gate combination of the inputs and their complements.
-- Y0 = \(\overline{A} \cdot \overline{B} \cdot \overline{C}\)
-- Y1 = \(\overline{A} \cdot \overline{B
-Continuing from where we left off:
-
-Logic Circuit (cont'd):
-- Y2 = \(\overline{A} \cdot B \cdot \overline{C}\)
-- Y3 = \(\overline{A} \cdot B \cdot C\)
-- Y4 = \(A \cdot \overline{B} \cdot \overline{C}\)
-- Y5 = \(A \cdot \overline{B} \cdot C\)
-- Y6 = \(A \cdot B \cdot \overline{C}\)
-- Y7 = \(A \cdot B \cdot C\)
-
+- Y0 = A’B’C’
+- Y1= A’B’C
+- Y2 = A’BC’
+- Y3 = A’BC
+- Y4 = AB’C’
+- Y5= AB’C
+- Y6 = ABC’
+- Y7 = ABC
+- 
 Each output is active high for one unique combination of the inputs, effectively decoding the 3-bit binary input into one of the 8 output lines.
 
-#### d. 4:2 Priority Encoder
+### d. 4:2 Priority Encoder
 
 A 4:2 Priority Encoder converts 4 input lines into a 2-bit binary output, ensuring that the highest-priority input (the highest-numbered active input) is encoded.
 
@@ -114,13 +113,13 @@ Truth Table:
 
 Logic Circuit:
 - Y1 = I3 + I2
-- Y0 = I3 + \(\overline{I2} \cdot I1\)
+- Y0 = I3 + I2'.I1
 
 The outputs reflect the highest-priority active input.
 
-### 2. Differences Between:
+## 2. Differences Between:
 
-#### a. Encoder & Decoder
+### a. Encoder & Decoder
 
 Encoder:
 - Converts multiple input lines into a smaller number of output lines.
@@ -132,7 +131,7 @@ Decoder:
 - Example: 2:4 decoder converts 2 inputs into 4 outputs.
 - Used to select one out of many output lines.
 
-#### b. Encoder & Priority Encoder
+### b. Encoder & Priority Encoder
 
 Encoder:
 - Converts multiple input lines into a smaller number of output lines.
@@ -144,15 +143,15 @@ Priority Encoder:
 - Ensures the highest-priority input is encoded if multiple inputs are active.
 - Example: 4:2 priority encoder.
 
-### 3. Applications of:
+## 3. Applications of:
 
-#### a. Priority Encoder
+### a. Priority Encoder
 
 - Interrupt Handling in Microprocessors: Determines the highest priority interrupt request to be processed.
 - Keyboard Encoders: Encodes the key press on a keyboard, ensuring the highest-priority key is encoded if multiple keys are pressed simultaneously.
 - Digital Circuits: Used in systems requiring prioritization, such as communication protocols and data acquisition systems.
 
-#### b. Priority Decoder
+### b. Priority Decoder
 
 (Note: "Priority Decoder" is less commonly referenced; it might refer to a combination of priority encoders and standard decoders in practical applications.)
 
@@ -160,15 +159,15 @@ Priority Encoder:
 - Communication Systems: Decoding signals where priorities are assigned to certain signals.
 - Control Systems: Used where certain control signals have higher priorities.
 
-### 4. Basic Functions of:
+## 4. Basic Functions of:
 
-#### a. Digital Encoder
+### a. Digital Encoder
 
 - Data Compression: Reduces the number of data lines by encoding data into a smaller set of lines.
 - Signal Transmission: Encodes multiple signals for transmission over fewer lines.
 - Addressing: Converts binary data into addresses for memory and other devices.
 
-#### b. Digital Decoder
+### b. Digital Decoder
 
 - Signal Selection: Decodes encoded signals back into their original form, selecting specific lines.
 - Address Decoding: Decodes addresses in memory access and other addressing systems.
