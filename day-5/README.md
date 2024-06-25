@@ -45,5 +45,46 @@ Step-by-Step Design:
 ```
 
 ### Output Equation:
-\[ F = \text{MUX}(W0, W1, S3) \]
-Where \( W0 \) and \( W1 \) are the outputs from the third stage.
+F = MUX(W0, W1, S3)
+Where W0 and W1 are the outputs from the third stage.
+
+## 2. Design D-FF using MUX
+
+A D Flip-Flop (D-FF) can be designed using a MUX to select between the current input (D) and the previous output (Q) based on the clock signal.
+
+### Diagram:
+
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/a0736ed9-e92c-4d30-95e7-141c1785ba3d)
+
+### Working:
+
+- The MUX selects between the input D and the current state Q.
+- When CLK is high, the MUX selects D.
+- When CLK is low, the MUX selects Q.
+
+### Truth Table:
+
+| CLK | Input to MUX | Q (Next State) |
+|-----|--------------|----------------|
+|  0  |      Q       |        Q       |
+|  1  |      D       |        D       |
+
+## 3. Design a 1:2 DEMUX that can be used as an Inverter and Buffer
+
+A 1:2 DEMUX can be designed to act as both an inverter and a buffer by controlling the select line.
+
+### Diagram:
+
+
+
+### Logic:
+
+- If S = 0, A = I (acts as a buffer).
+- If S = 1, B = ¬I (acts as an inverter).
+
+### Implementation:
+
+- A = I AND ¬S
+- B = I AND S
+
+
