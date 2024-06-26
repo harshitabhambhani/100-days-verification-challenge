@@ -75,7 +75,9 @@ A 1:2 DEMUX can be designed to act as both an inverter and a buffer by controlli
 
 ### Diagram:
 
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/948a1bc6-4d9b-47cd-8bf9-ba6dd4c79948)
 
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/8a97585f-db36-4907-8173-6436578ec7e7)
 
 ### Logic:
 
@@ -87,4 +89,64 @@ A 1:2 DEMUX can be designed to act as both an inverter and a buffer by controlli
 - A = I AND ¬S
 - B = I AND S
 
+## 4. Design NAND Gate using 1:2 DEMUX
 
+To design a NAND gate using a 1:2 DEMUX, we use the select lines as inputs A and B, and the input I is connected to logic 1.
+
+### Diagram:
+
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/ce4a080a-ab22-4e82-8b56-4706d5f50b61)
+
+### Truth Table:
+
+| A | B | Y (NAND) |
+|---|---|----------|
+| 0 | 0 |    1     |
+| 0 | 1 |    1     |
+| 1 | 0 |    1     |
+| 1 | 1 |    0     |
+
+### Connections:
+
+- Connect the select lines A and B to the inputs of the DEMUX.
+- Connect the input I to logic 1.
+- The output corresponding to A=1, B=1 (Y3) will give the NAND output.
+
+## 5. Difference between Decoder and Demux
+
+### Decoder:
+- Converts binary information from n input lines to a maximum of \(2^n\) unique output lines.
+- Used for decoding encoded data.
+
+### Demultiplexer (Demux):
+- Takes a single input and routes it to one of \(2^n\) output lines based on select lines.
+- Used for data distribution.
+
+
+## 6. If D0 input of a 2:1 MUX is connected to ground, what is the output?
+
+- If D0 is connected to ground (0) and depending on the select line (S):
+  - If S = 0, the output will be 0 (ground).
+  - If S = 1, the output will be D1.
+
+## 7. If D1 input of a 2:1 MUX is connected to 1, what is the output?
+
+- If D1 is connected to logic 1 and depending on the select line (S):
+  - If S = 0, the output will be D0.
+  - If S = 1, the output will be 1.
+
+## 8. Applications of:
+
+### a. Multiplexer
+
+- Data Selection: Selects data from multiple sources and routes it to a single line.
+- Communication Systems: Combines multiple signals for transmission over a single line.
+- Arithmetic Operations: Used in ALUs for selecting different operations.
+- Signal Routing: Directs signals in digital circuits and systems.
+
+### b. Demultiplexer
+
+- Data Distribution: Routes data from a single source to multiple destinations.
+- Communication Systems: Distributes received data to different destinations.
+- Memory Access: Selects specific memory locations or devices in computer systems.
+- Signal Demultiplexing: Splits a single data stream into multiple streams for further processing.
