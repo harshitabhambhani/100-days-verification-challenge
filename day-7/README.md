@@ -14,82 +14,20 @@ Let us assume State ‘a’ represents that 1 has not occurred yet. and assume S
 
 ## 2. FSM for Detecting Sequence 10110 (Overlapping)
 
-To detect the sequence `10110` with overlapping:
+(using Mealy FSM)
 
-States:
-- `S0`: Initial state.
-- `S1`: Detected `1`.
-- `S2`: Detected `10`.
-- `S3`: Detected `101`.
-- `S4`: Detected `1011`.
-- `S5`: Detected `10110` (final/accepting state).
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/d2541488-ee7a-4764-a3d1-5a50bda60656)
 
-Transitions:
-- `S0` → `S1` on input `1`.
-- `S1` → `S2` on input `0`.
-- `S2` → `S3` on input `1`.
-- `S3` → `S4` on input `1`.
-- `S4` → `S5` on input `0`.
-- `S5` → `S1` on input `1` (for overlapping).
-- `S5` → `S2` on input `0` (for overlapping).
+(using Moore FSM)
 
-## 3. FSM for Detecting Sequence 11001100 (Non-Overlapping)
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/a61b14ba-ff23-40fc-9af4-f68c588573b6)
 
-To detect the sequence `11001100` without overlapping:
+## 3. FSM for More Than One "1"s in Last 3 Samples
 
-States:
-- `S0`: Initial state.
-- `S1`: Detected `1`.
-- `S2`: Detected `11`.
-- `S3`: Detected `110`.
-- `S4`: Detected `1100`.
-- `S5`: Detected `11001`.
-- `S6`: Detected `110011`.
-- `S7`: Detected `1100110`.
-- `S8`: Detected `11001100` (final/accepting state).
+The idea is we need to design a complex sequence generator which will detect the patterns 011, 101, 110, and 111. Let us assume four different states
+a = no 1 detected state.
+b = one 1 detected state or 01 or 1 detected state.
+c = two or more than two 1’s detected state.
+d = 001/010 detected state. The FSM diagram is
 
-Transitions:
-- `S0` → `S1` on input `1`.
-- `S1` → `S2` on input `1`.
-- `S2` → `S3` on input `0`.
-- `S3` → `S4` on input `0`.
-- `S4` → `S5` on input `1`.
-- `S5` → `S6` on input `1`.
-- `S6` → `S7` on input `0`.
-- `S7` → `S8` on input `0`.
-- `S8` → `S0` on any input (reset for non-overlapping detection).
-
-## 4. FSM for More Than One "1"s in Last 3 Samples
-
-To detect more than one `1` in the last 3 samples:
-
-States:
-- `S0`: Initial state (no `1`s in the last 3 samples).
-- `S1`: One `1` in the last 3 samples.
-- `S2`: Two or more `1`s in the last 3 samples (accepting state).
-
-Transitions:
-- `S0` → `S1` on input `1`.
-- `S1` → `S2` on input `1`.
-- `S2` remains in `S2` on input `1`.
-- On input `0`, transition logic depends on the previous two states to keep track of `1`s within the last three samples.
-
-## 5. FSM for Detecting Consequent 4 "0"s (Overlapping)
-
-To detect four consecutive `0`s with overlapping:
-
-States:
-- `S0`: Initial state.
-- `S1`: Detected `0`.
-- `S2`: Detected `00`.
-- `S3`: Detected `000`.
-- `S4`: Detected `0000` (final/accepting state).
-
-Transitions:
-- `S0` → `S1` on input `0`.
-- `S1` → `S2` on input `0`.
-- `S2` → `S3` on input `0`.
-- `S3` → `S4` on input `0`.
-- `S4` → `S1` on input `0` (for overlapping).
-- On input `1`, reset to `S0` from any state.
-
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/ad573916-635e-42b6-9b83-ed118c1251a7)
