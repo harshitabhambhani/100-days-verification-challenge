@@ -106,15 +106,19 @@ Logic Equations:
 
 ## 7. Difference Between Ripple Carry Adder and Carry Look Ahead Adder
 
-Ripple Carry Adder (RCA):
+### Ripple Carry Adder (RCA):
 - Each bit's carry-out depends on the carry-in from the previous bit.
 - Simple and easy to design.
 - Slower due to the ripple effect of carry propagation through each bit.
 
-Carry Look Ahead Adder (CLA):
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/8dd2af6e-6dee-463d-81de-3930cc659c85)
+
+### Carry Look Ahead Adder (CLA):
 - Uses a more complex logic to calculate carry bits in advance.
 - Faster since it reduces the delay caused by the carry propagation.
 - More complex and requires more gates compared to RCA.
+
+![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/3938403f-f140-43c6-9f24-90a2620137b8)
 
 ## 8. Explain Comparator with Truth Table
 
