@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 3
+# 100 Days Verification Challenge - Day 3 - Encoders and Decoders
 
 ## 1. Design & Explanation of:
 
