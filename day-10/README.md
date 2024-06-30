@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 10
+# 100 Days Verification Challenge - Day 10 - Number system and Digital codes
 
 ## 1. Types of Number Systems
 
