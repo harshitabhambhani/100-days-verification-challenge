@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 6
+# 100 Days Verification Challenge - Day 6 - FSM
 
 ## 1. What is a Finite State Machine (FSM)?
 
