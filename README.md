@@ -1,2 +1,21 @@
 # 100-days-verification-challenge
-A 100-day challenge to learn and implement digital logic verification concepts
+
+## Project Overview
+
+Welcome to the 100 Days Verification Challenge! This project is dedicated to improving verification skills through consistent daily practice. Over the course of 100 days, I will tackle various verification tasks, problems, and projects, documenting my progress and solutions here.
+
+### Objectives
+
+1. **Skill Improvement**: Enhance my understanding and capabilities in verification techniques.
+2. **Consistency**: Develop a habit of daily practice and problem-solving.
+3. **Documentation**: Maintain a comprehensive record of my journey, including solutions, learnings, and reflections.
+
+### Approach
+
+- Each day, I will select a verification problem or task to solve.
+- I will document my solution, the approach taken, and any challenges encountered.
+- Solutions will be organized by day, and each will have its own README file explaining the specifics of the task and the solution.
+- I will reflect on my progress periodically to identify areas for improvement and celebrate milestones.
+
+Feel free to follow along, provide feedback, and contribute if you find this project helpful!
+
