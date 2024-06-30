@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 9
+# 100 Days Verification Challenge - Day 9 - Sequential circuits
 
 ## 1. Difference Between Sequential and Combinational Circuits
 
