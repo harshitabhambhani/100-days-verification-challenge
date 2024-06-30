@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 8
+# 100 Days Verification Challenge - Day 8 - Combinational circuits
 
 ## 1. What is a Buffer? What are its applications?
 
