@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 7
+# 100 Days Verification Challenge - Day 7 - Sequence detector
 
 ## 1. FSM for Serial Two's Complement Block Detection
 
