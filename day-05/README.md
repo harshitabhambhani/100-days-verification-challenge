@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 5
+# 100 Days Verification Challenge - Day 5 - Multiplexer and Demultiplexer
 
 ## 1. Design 16:1 MUX using 2:1 MUX
 
