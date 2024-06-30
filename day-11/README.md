@@ -126,18 +126,17 @@ The output of the flip-flops will form the 4-bit output of the LFSR, and the clo
 
 ### LFSR Verilog Code
 
-'''
+```verilog
 module LFSR(input clk, rst, output reg [3:0] op);
   always@(posedge clk) begin
     if(rst) op <= 4'hf;
     else op = {op[2:0],(op[3]^op[2])};
   end
 endmodule
-'''
+```
 
-### Testbench Code
-
-'''
+### Testbench code
+```
 module TB;
   reg clk, rst;
   wire [3:0]op;
@@ -157,11 +156,10 @@ module TB;
     $dumpfile("dump.vcd"); $dumpvars;
   end
 endmodule
-'''
+```
 
-### Output will look something like this:
-
-'''
+### Output
+```
 op=xxxx
 op=1111
 op=1110
@@ -177,7 +175,7 @@ op=1101
 op=1010
 op=0101
 op=1011
-'''
+```
 
 ## 7. 4-bit Barrel Shifter using MUX
 
