@@ -27,8 +27,11 @@ Here are the steps:
 ### Boolean expression for each BCD bits can be written as
 
 D3= m(8, 9)
+
 D2= m(4, 5, 6, 7, 8, 9)
+
 D1= m(2, 3, 4, 5)
+
 D0= m(1, 2, 5, 6, 9)
 
 ![image](https://github.com/harshitabhambhani/100-days-verification-challenge/assets/109619297/fa30f480-8121-46a5-8e58-8f87390306b8)
