@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 2
+# 100 Days Verification Challenge - Day 2 - Logic Gates
 
 ## 1. Which are basic logic gates? Explain working with truth table. 
 
