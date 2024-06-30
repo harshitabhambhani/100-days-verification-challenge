@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 1
+# 100 Days Verification Challenge - Day 1 - Flip flops and Latches
 
 ## 1. Explain Functioning of JK & SR Flip-Flop
 
