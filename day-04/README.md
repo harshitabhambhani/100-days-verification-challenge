@@ -1,4 +1,4 @@
-# 100 Days Verification Challenge - Day 4
+# 100 Days Verification Challenge - Day 4 - Timers and Counters
 
 ## 1. Design & Explanation
 
