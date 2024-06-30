@@ -40,8 +40,7 @@ Thank you for considering contributing to this project! Here are some guidelines
 
 ## Code of Conduct
 
-Please note that this project adheres to a Contributor Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to [email@example.com].
-
+Please note that this project adheres to a Contributor Code of Conduct. By participating, you are expected to uphold this code. Please report unacceptable behavior to bhambhaniharshita06@gmail.com
 ## Style Guide
 
 - Follow the existing code style.
