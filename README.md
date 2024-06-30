@@ -19,3 +19,13 @@ Welcome to the 100 Days Verification Challenge! This project is dedicated to imp
 
 Feel free to follow along, provide feedback, and contribute if you find this project helpful!
 
+## Progress Tracking
+
+This section tracks my daily progress throughout the 100 Days Verification Challenge. Each day's entry links to the corresponding solution and README file.
+
+### Progress Overview
+
+- [Day 1](day-01) - [Brief description of the task or problem]
+- [Day 2](link-to-day-2-solution) - [Brief description of the task or problem]
+- [Day 3](link-to-day-3-solution) - [Brief description of the task or problem]
+- ...
