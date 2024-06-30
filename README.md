@@ -25,7 +25,15 @@ This section tracks my daily progress throughout the 100 Days Verification Chall
 
 ### Progress Overview
 
-- [Day 1](day-01) - [Brief description of the task or problem]
-- [Day 2](link-to-day-2-solution) - [Brief description of the task or problem]
-- [Day 3](link-to-day-3-solution) - [Brief description of the task or problem]
-- ...
+- [Day 1](day-01) - [Flip FLops and Latches]
+- [Day 2](day-02) - [Logic Gates]
+- [Day 3](day-03) - [Encoders and Decoders]
+- [Day 4](day-04) - [Timers and Counters]
+- [Day 5](day-05) - [Multiplexers and Demultiplexers]
+- [Day 6](day-06) - [FSM]
+- [Day 7](day-07) - [Sequence detectors]
+- [Day 8](day-08) - [Combinational Circuits]
+- [Day 9](day-09) - [Sequential Circuits]
+- [Day 10](day-10) - [Number Systems and Digital Codes]
+- [Day 11](day-11) - [Miscellaneous Digital Electronics FAQs]
+- [Day 12](day-12) - [Optimization techniques in Digital Circuits]
