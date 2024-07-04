@@ -1,6 +1,6 @@
 # 100 Days Verification Challenge - Day 14 - Pipelining hazards
 
-## 1. Different Types of Pipelining Hazards
+## 1. Explain the different types pipelining hazards with examples (Structural, Control, Data hazards)
 
 Pipelining hazards are conditions that prevent the next instruction in the instruction stream from executing during its designated clock cycle. There are three main types of hazards:
 
@@ -34,7 +34,7 @@ For instructions:
 
 A RAW hazard occurs because `SUB` reads `R1` before `ADD` writes to it.
 
-## 2. Ways to Resolve Different Pipeline Hazards
+## 2. What are ways to resolve different pipeline hazards? What are pros & cons of these resolution techniques?
 
 ### a. Structural Hazards
 
@@ -68,7 +68,7 @@ A RAW hazard occurs because `SUB` reads `R1` before `ADD` writes to it.
 - **Pros:** Forwarding reduces the number of stalls; reordering can improve efficiency.
 - **Cons:** Forwarding increases hardware complexity; stalling reduces performance.
 
-## 3. Identifying Pipelining Hazards in Instruction Sequences
+## 3. Identify the pipelining hazards (also tell the sub-category e.g., Data hazard - WAW) in below sequence of instructions. Explain why these instructions are resulting in pipelining hazard.
 
 ### a. Sequence: `SUB R1, R4, R3` and `ADD R1, R2, R3`
 
