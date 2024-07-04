@@ -52,11 +52,11 @@ Key Features:
 - More complex and expensive design.
 - Less flexible memory usage since memory is split between data and instructions.
 
-## 4. Modified Harvard Architecture
+## 4. What is Modified Harvard Architecture?
 
 Modified Harvard Architecture combines elements of both Von Neumann and Harvard architectures. It allows data and instructions to be stored in separate caches but uses a unified memory space. This architecture can fetch data and instructions simultaneously while simplifying memory management compared to pure Harvard architecture.
 
-## 5. RISC & CISC Architecture
+## 5. Explain RISC & CISC Architecture in detail.
 
 ### RISC (Reduced Instruction Set Computer)
 RISC architecture uses a small set of simple instructions that are executed within a single clock cycle. The design emphasizes efficiency and speed, allowing for more straightforward pipelining and higher performance.
@@ -76,7 +76,7 @@ Key Features:
 - Emphasis on hardware to manage complexity.
 - Examples: x86, VAX.
 
-## 6. Pros & Cons of RISC vs CISC
+## 6. List down pros & cons of RISC VS CISC?
 
 ### RISC Architecture
 **Pros:**
@@ -98,7 +98,7 @@ Key Features:
 - Harder to pipeline, potentially reducing performance.
 - Higher power consumption.
 
-## 7. RISC-V Processor
+## 7. What is a RISC-V processor?
 
 RISC-V is an open-source RISC ISA that is designed to be scalable and customizable. It allows for extensions and modifications to suit specific needs, making it highly versatile for various applications.
 
@@ -110,11 +110,11 @@ RISC-V offers several benefits:
 - Simplified instruction set for easier implementation and optimization.
 - Strong community support and growing ecosystem.
 
-## 9. SIMD Architecture in GPU
+## 9. What is SIMD architecture in GPU?
 
 SIMD (Single Instruction, Multiple Data) architecture in GPUs allows a single instruction to operate on multiple data points simultaneously. This parallelism makes SIMD particularly effective for tasks like graphics rendering, scientific computations, and machine learning.
 
-## 10. Advantages of SIMD Over SISD
+## 10. What are the advantages of using SIMD over SISD?
 
 **SIMD (Single Instruction, Multiple Data):**
 - Higher performance for parallel tasks.
