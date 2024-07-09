@@ -49,4 +49,12 @@ This section tracks my daily progress throughout the 100 Days Verification Chall
 - [Day 22](day-22) - [Cache coherence]
 - [Day 23](day-23) - [RAM & ROM]
 - [Day 24](day-24) - [Memory elements]
+- [Day 25](day-25) - [STA Basics]
+- [Day 26](day-26) - [STA terminologies]
+- [Day 27](day-27) - [STA FAQs]
+- [Day 28](day-28) - [STA numerical]
+- [Day 29](day-29) - [MOSFET & CMOS]
+- [Day 30](day-30) - [Design FAQs]
+- [Day 31](day-31) - [Verilog Basics]
+- [Day 32](day-32) - [Verilog Data Types]
 
