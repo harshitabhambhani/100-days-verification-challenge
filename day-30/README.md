@@ -72,7 +72,7 @@ Metastability is a condition where a digital circuit, such as a flip-flop, enter
 
 Metastability can lead to incorrect data being latched, timing errors, and overall system instability. It is a critical consideration in asynchronous designs and clock domain crossing circuits.
 
-## 9. Arbiter in Digital Circuits:
+## 9. What is an Arbiter? Explain its operation.
 
 **Definition**:
 An arbiter is a digital circuit that determines which of multiple input signals should be given access to a shared resource in a system. Arbiters are commonly used in systems where multiple components or processes need to access a common resource, such as a bus, memory, or communication channel, to ensure orderly and fair access.
@@ -87,36 +87,6 @@ The basic operation of an arbiter can be broken down into several steps:
 3. **Grant Signal**: Once a request is selected based on the priority, the arbiter generates a grant signal for that specific request, allowing it access to the shared resource.
 
 4. **Access**: The selected source accesses the shared resource while other requests are held off until the current transaction is completed or a new arbitration cycle begins.
-
-**Types of Arbitration Algorithms**:
-
-1. **Fixed Priority**:
-   - In this method, each request has a fixed priority level.
-   - The arbiter always grants access to the highest-priority request.
-   - Simple to implement but can lead to starvation of lower-priority requests.
-
-2. **Round-Robin**:
-   - Requests are granted in a cyclic order.
-   - Ensures fairness as each request gets a turn to access the resource.
-   - Useful in systems where fairness is crucial.
-
-3. **Dynamic Priority**:
-   - Priorities are assigned dynamically based on various factors such as the urgency of requests or past access history.
-   - More complex to implement but can optimize resource utilization and responsiveness.
-
-4. **Weighted Round-Robin**:
-   - Combines round-robin with different weights assigned to requests.
-   - Higher-weighted requests get more frequent access, balancing fairness with priority.
-
-**Applications**:
-
-1. **Multi-Processor Systems**: In multi-core processors, arbiters manage access to shared memory or communication buses.
-
-2. **Network Routers**: Arbiters decide which data packet to forward when multiple packets arrive simultaneously.
-
-3. **Peripheral Access**: In embedded systems, arbiters manage access to shared peripherals like I/O devices.
-
-4. **Memory Controllers**: Arbiters handle access requests from various components to shared memory banks.
 
 **Example**:
 
