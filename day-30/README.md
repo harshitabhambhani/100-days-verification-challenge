@@ -75,9 +75,11 @@ Metastability can lead to incorrect data being latched, timing errors, and overa
 ## 9. What is an Arbiter? Explain its operation.
 
 **Definition**:
+
 An arbiter is a digital circuit that determines which of multiple input signals should be given access to a shared resource in a system. Arbiters are commonly used in systems where multiple components or processes need to access a common resource, such as a bus, memory, or communication channel, to ensure orderly and fair access.
 
 **Operation**:
+
 The basic operation of an arbiter can be broken down into several steps:
 
 1. **Request Signals**: Multiple request signals are received from different sources, indicating that each source needs access to the shared resource.
