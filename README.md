@@ -57,8 +57,16 @@ This section tracks my daily progress throughout the 100 Days Verification Chall
 - [Day 30](day-30) - [Design FAQs]
 - [Day 31](day-31) - [Verilog Basics]
 - [Day 32](day-32) - [Verilog Data Types]
-- 
-
+- [Day 33](day-33) - [System Tasks]
+- [Day 34](day-34) - [Basic Verilog Codes]
+- [Day 35](day-35) - [Procedural Blocks]
+- [Day 36](day-36) - [Operators]
+- [Day 37](day-37) - [Case Statements and Delays]
+- [Day 38](day-38) - [Behavioral Modelling]
+- [Day 39](day-39) - [Tasks & Functions]
+- [Day 40](day-40) - [Parameters]
+- [Day 41](day-41) - [Advanced Verilog Concepts]
+- [Day 42](day-42) - [Advanced Verilog Codes]
 
 ## Inspirations
 
