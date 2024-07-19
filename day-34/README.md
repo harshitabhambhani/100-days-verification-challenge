@@ -169,14 +169,46 @@ endmodule
 
 ## 5. Design a Verilog code to execute following truth table:
 
-| Inputs |     | Outputs |   |
-|--------|-----|----------|---|
-|   a    |  b  |    x     | y |
-|--------|-----|----------|---|
-|   0    |  0  |    1     | 0 |
-|   0    |  1  |    1     | 1 |
-|   1    |  0  |    0     | 0 |
-|   1    |  1  |    0     | 1 |
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">Inputs</th>
+      <th colspan="2">Outputs</th>
+    </tr>
+    <tr>
+      <th>a</th>
+      <th>b</th>
+      <th>x</th>
+      <th>y</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Verilog Code
 Here is the Verilog code that implements the given truth table:
