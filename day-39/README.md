@@ -39,48 +39,12 @@ In this case, `my_function` is called, but its return value is not assigned to a
 
 ## 6. Define a `function` to design 8-function ALU that takes two 4-bit inputs `a` & `b` & computes a 5-bit output `out` based on 3-bit input `sel` as below:
 
-<table>
-  <thead>
-    <tr>
-      <th>sel</th>
-      <th>out</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>3'b000</td>
-      <td>a</td>
-    </tr>
-    <tr>
-      <td>3'b001</td>
-      <td>a + b</td>
-    </tr>
-    <tr>
-      <td>3'b010</td>
-      <td>a - b</td>
-    </tr>
-    <tr>
-      <td>3'b011</td>
-      <td>a * b</td> <!-- Note: Ensure that this operation fits within the bit width if needed -->
-    </tr>
-    <tr>
-      <td>3'b100</td>
-      <td>a % b</td>
-    </tr>
-    <tr>
-      <td>3'b101</td>
-      <td>a << 1</td>
-    </tr>
-    <tr>
-      <td>3'b110</td>
-      <td>a >> 1</td>
-    </tr>
-    <tr>
-      <td>3'b111</td>
-      <td>a > b</td>
-    </tr>
-  </tbody>
-</table>
+| sel | out | sel | out |
+|-----|-----|-----|-----|
+| 3'b000 | a | 3'b100 | a % 1 |
+| 3'b001 | a + b | 3'b101 | a << 1 |
+| 3'b010 | a - b | 3'b110 | a >> 1 |
+| 3'b011 | a/b | 3'b111 | a > b |
 
 ```verilog
 function [4:0] alu_function;
@@ -102,9 +66,7 @@ function [4:0] alu_function;
 endfunction
 ```
 
-## 7. Task to Compute Factorial
-
-Here is a Verilog task to compute the factorial of a 4-bit number with a delay:
+## 7. Define a task to compute the factorial of a 4-bit number. The output is a 32-bit value. The result is assigned to output after a delay of 11-time units.
 
 ```verilog
 task compute_factorial;
@@ -120,4 +82,3 @@ task compute_factorial;
     end
 endtask
 ```
-
