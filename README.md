@@ -64,6 +64,4 @@ This section tracks my daily progress throughout the 100 Days Verification Chall
 
 I am inspired to undertake this 100 Days Verification Challenge by Sweety Pinjani. Her work and insights in the field of verification have been a great motivation for me to enhance my skills and push the boundaries of my understanding.
 
-You can connect with her on [LinkedIn](https://www.linkedin.com/in/sweetypinjani/) and check out her [YouTube channel](https://www.youtube.com/@SwitiSpeaksOfficial) for questions to this challenge.
-
 For the specific challenges I'm working on, you can refer to the [YouTube playlist](https://www.youtube.com/watch?v=QPzgoM69QPc&list=PL44oI9iwgKq5MW17b3MxjPp1HvTIxFdoB&index=1&t=0s) that contains the questions I am answering as part of this challenge.
